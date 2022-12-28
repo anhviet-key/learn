@@ -1,0 +1,67 @@
+[
+  {
+    "Menu": {
+      "home": "trang chủ",
+      "about": "thông tin",
+      "services": "dich vu",
+      "portfolio": "dự án",
+      "contact": "liên hệ"
+    },
+    "Home": {
+      "heading": "Xin chào, tên tôi là",
+      "name": "Nguyễn Anh Việt",
+      "title": "Xin chào, Tôi là một",
+      "job": "Lập trình viên",
+      "description": "Là một người nhiệt tình, năng động, có trách nhiệm trong công việc. Không ngừng học hỏi trau dồi kiến thức cũ và mới về lập trình để phát triển thêm các kỹ năng chuyên môn. Với những kiến thức hiện tại, có nhiều thiếu sót, tôi muốn tìm một nơi làm việc phù hợp và gắn bó lâu dài cùng với việc bổ sung những kiến thức còn thiếu. Mục tiêu của tôi trong hai năm tới là trở thành một lập trình viên full-stack.",
+      "button": "Nhiều hơn về tôi"
+    },
+    "about": {
+      "head": "Thông tin về tôi",
+      "heading": "Tôi là Nguyễn Anh Việt và",
+      "job": "là lập trình viên Web",
+      "description": "Là một người nhiệt tình, năng động, có trách nhiệm trong công việc. Không ngừng học hỏi trau dồi kiến thức cũ và mới về lập trình để phát triển thêm các kỹ năng chuyên môn. Với những kiến thức hiện tại, có nhiều thiếu sót, tôi muốn tìm một nơi làm việc phù hợp và gắn bó lâu dài cùng với việc bổ sung những kiến thức còn thiếu. Mục tiêu của tôi trong hai năm tới là trở thành một lập trình viên full-stack.",
+      "button": "Nhiều hơn ...",
+      "skills": "KỸ NĂNG",
+      "otherSkills": "Kỹ năng khác",
+      "education": "Học tập",
+      "experience": "Làm việc",
+      "eduOne": "Nguyễn Công Phương",
+      "eduDesOne": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident quas ipsam nihil repudiandae aperiam? Ab non possimus libero ut quam excepturi, velit exercitationem atque molestiae optio doloribus sequi amet doloremque.",
+      "eduTwo": "Nguyễn Công Phương",
+      "eduDesTwo": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident quas ipsam nihil repudiandae aperiam? Ab non possimus libero ut quam excepturi, velit exercitationem atque molestiae optio doloribus sequi amet doloremque.",
+      "eduThree": "Nguyễn Công Phương",
+      "eduDesThree": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident quas ipsam nihil repudiandae aperiam? Ab non possimus libero ut quam excepturi, velit exercitationem atque molestiae optio doloribus sequi amet doloremque.",
+      "eduFour": "Nguyễn Công Phương",
+      "eduDesFour": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident quas ipsam nihil repudiandae aperiam? Ab non possimus libero ut quam excepturi, velit exercitationem atque molestiae optio doloribus sequi amet doloremque.",
+      "eduFive": "Nguyễn Công Phương",
+      "eduDesFive": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident quas ipsam nihil repudiandae aperiam? Ab non possimus libero ut quam excepturi, velit exercitationem atque molestiae optio doloribus sequi amet doloremque.",
+      "eduSix": "Nguyễn Công Phương",
+      "eduDesSix": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident quas ipsam nihil repudiandae aperiam? Ab non possimus libero ut quam excepturi, velit exercitationem atque molestiae optio doloribus sequi amet doloremque."
+    },
+    "services": {
+      "head": "Dịch vụ",
+      "desOne": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta tempore, harum cum excepturi veniam optio deleniti commodi recusandae obcaecati aliquam dolorem. A iste, nostrum quae natus odio error aspernatur accusamus?",
+      "desTwo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta tempore, harum cum excepturi veniam optio deleniti commodi recusandae obcaecati aliquam dolorem. A iste, nostrum quae natus odio error aspernatur accusamus?",
+      "desThree": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta tempore, harum cum excepturi veniam optio deleniti commodi recusandae obcaecati aliquam dolorem. A iste, nostrum quae natus odio error aspernatur accusamus?",
+      "desFour": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta tempore, harum cum excepturi veniam optio deleniti commodi recusandae obcaecati aliquam dolorem. A iste, nostrum quae natus odio error aspernatur accusamus?",
+      "desFive": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta tempore, harum cum excepturi veniam optio deleniti commodi recusandae obcaecati aliquam dolorem. A iste, nostrum quae natus odio error aspernatur accusamus?",
+      "desSix": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta tempore, harum cum excepturi veniam optio deleniti commodi recusandae obcaecati aliquam dolorem. A iste, nostrum quae natus odio error aspernatur accusamus?"
+    },
+    "services2": {
+      "head": "Dự án",
+      "title": "Những dự án của tôi"
+    },
+    "contact": {
+      "head": "Liên hệ tôi",
+      "headingOne": "",
+      "desOne": "TÔI VỚI DỊCH VỤ CỦA BẠN",
+      "headingTwo": "GỬI EMAIL CHO TÔI",
+      "desTwo": "TÔI RẤT NHANH PHẢN HỒI CHO BẠN",
+      "inputOne": "Tên",
+      "inputThree": "Email",
+      "inputFour": "Chủ đề",
+      "inputFive": "Thông điệp",
+      "button": "Gửi tin nhắn"
+    }
+  }
+]

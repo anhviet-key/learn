@@ -1,0 +1,67 @@
+[
+  {
+    "Menu": {
+      "home": "home",
+      "about": "about",
+      "services": "services",
+      "portfolio": "portfolio",
+      "contact": "contact"
+    },
+    "Home": {
+      "heading": "Hello, my name is",
+      "name": "Nguyen Anh Viet",
+      "title": "Hello, I`m a",
+      "job": "Developer",
+      "description": "Be an enthusiastic, dynamic, responsible person at work. Constantly learning to cultivate old and new knowledge about programming to develop more professional skills. With the current knowledge, there are many shortcomings, I want to find a suitable workplace and stick with it for a long time along with adding the missing knowledge. My goal in the next two years is to become a full-stack programmer.",
+      "button": "More About Me"
+    },
+    "about": {
+      "head": "About Me",
+      "heading": "I`m a Nguyen Anh Viet and",
+      "job": "Web Developer",
+      "description": "Be an enthusiastic, dynamic, responsible person at work. Constantly learning to cultivate old and new knowledge about programming to develop more professional skills. With the current knowledge, there are many shortcomings, I want to find a suitable workplace and stick with it for a long time along with adding the missing knowledge. My goal in the next two years is to become a full-stack programmer.",
+      "button": "More here ...",
+      "skills": "SKILL",
+      "otherSkills": "Other Skills",
+      "education": "Education",
+      "experience": "Experience",
+      "eduOne": "Nguyen Cong Phuong",
+      "eduDesOne": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident quas ipsam nihil repudiandae aperiam? Ab non possimus libero ut quam excepturi, velit exercitationem atque molestiae optio doloribus sequi amet doloremque.",
+      "eduTwo": "Nguyen Cong Phuong",
+      "eduDesTwo": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident quas ipsam nihil repudiandae aperiam? Ab non possimus libero ut quam excepturi, velit exercitationem atque molestiae optio doloribus sequi amet doloremque.",
+      "eduThree": "Nguyen Cong Phuong",
+      "eduDesThree": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident quas ipsam nihil repudiandae aperiam? Ab non possimus libero ut quam excepturi, velit exercitationem atque molestiae optio doloribus sequi amet doloremque.",
+      "eduFour": "Nguyen Cong Phuong",
+      "eduDesFour": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident quas ipsam nihil repudiandae aperiam? Ab non possimus libero ut quam excepturi, velit exercitationem atque molestiae optio doloribus sequi amet doloremque.",
+      "eduFive": "Nguyen Cong Phuong",
+      "eduDesFive": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident quas ipsam nihil repudiandae aperiam? Ab non possimus libero ut quam excepturi, velit exercitationem atque molestiae optio doloribus sequi amet doloremque.",
+      "eduSix": "Nguyen Cong Phuong",
+      "eduDesSix": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident quas ipsam nihil repudiandae aperiam? Ab non possimus libero ut quam excepturi, velit exercitationem atque molestiae optio doloribus sequi amet doloremque."
+    },
+    "services": {
+      "head": "Services",
+      "desOne": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta tempore, harum cum excepturi veniam optio deleniti commodi recusandae obcaecati aliquam dolorem. A iste, nostrum quae natus odio error aspernatur accusamus?",
+      "desTwo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta tempore, harum cum excepturi veniam optio deleniti commodi recusandae obcaecati aliquam dolorem. A iste, nostrum quae natus odio error aspernatur accusamus?",
+      "desThree": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta tempore, harum cum excepturi veniam optio deleniti commodi recusandae obcaecati aliquam dolorem. A iste, nostrum quae natus odio error aspernatur accusamus?",
+      "desFour": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta tempore, harum cum excepturi veniam optio deleniti commodi recusandae obcaecati aliquam dolorem. A iste, nostrum quae natus odio error aspernatur accusamus?",
+      "desFive": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta tempore, harum cum excepturi veniam optio deleniti commodi recusandae obcaecati aliquam dolorem. A iste, nostrum quae natus odio error aspernatur accusamus?",
+      "desSix": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta tempore, harum cum excepturi veniam optio deleniti commodi recusandae obcaecati aliquam dolorem. A iste, nostrum quae natus odio error aspernatur accusamus?"
+    },
+    "services2": {
+      "head": "Portfolio",
+      "title": "My Project"
+    },
+    "contact": {
+      "head": "Contact Me",
+      "headingOne": "Have You Any Question ?",
+      "desOne": "I`M AT YOUR SERVICE",
+      "headingTwo": "SEND ME AN EMAIL",
+      "desTwo": "I`M VERY RESPONSIVE TO MESSAGES",
+      "inputOne": "Name",
+      "inputThree": "Email",
+      "inputFour": "Subject",
+      "inputFive": "Message",
+      "button": "Send Messages"
+    }
+  }
+]

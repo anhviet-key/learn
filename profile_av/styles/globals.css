@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+
+:root {
+  --color-items: #ff4337;
+  /* --color-items-orange: #fe7007;
+  --color-items-green: #249581;
+  --color-items-blue: #0d51b4;
+  --color-items-pink: #ff57b6; */
+  /* --bg-dark: #151515;
+  --bg-dark-bar: #222222; */
+  --bg-white: #f4f4fc;
+  --bg-white-bar: #fcfaff;
+  --text-white: #fff;
+  --text-black: #444368;
+}
+
+/* ::selection {
+  background-color: #ff4337;
+} */
+html,
+body {
+  scrollbar-color: var(--color-items) transparent;
+}
+* {
+  scroll-behavior: smooth !important;
+}
+
+@layer components {
+  .item-color {
+    @apply w-6 h-6 hover:border-2 hover:border-solid hover:border-gray-500 rounded-full;
+  }
+  .showbar {
+    width: 3rem !important;
+    padding: 0 !important;
+  }
+  /* .showbar div {
+    height: 2rem !important;
+    width: 2rem !important;
+  } */
+  .showbarMobile {
+    /* @apply w-40;
+    padding: 0 !important; */
+    display: block !important;
+  }
+  .showbar div > span {
+    display: none !important;
+  }
+  .showbar .ulItems li {
+    writing-mode: vertical-lr !important;
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: vertical-lr;
+    @apply flex items-center border-none border-gray-200 pb-1 px-4 capitalize mt-8 text-[18px] transition duration-500 rotate-[-360deg] dark:border-gray-500;
+  }
+  .showbar .ulItems li i {
+    display: none !important;
+  }
+  .showbar .logo::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-left: 5px solid var(--color-items);
+    border-bottom: 5px solid var(--color-items);
+    bottom: 65px;
+    left: 16px;
+  }
+  .showbar div {
+    align-self: auto !important;
+  }
+  .ulItems {
+    @apply list-none w-max justify-between;
+  }
+  .ulItems li {
+    @apply flex items-center border-b-2 font-bold border-gray-200 pb-1 px-4 capitalize mt-8 text-[18px] dark:border-gray-500;
+  }
+  .ulItems li i {
+    @apply min-w-[2rem];
+  }
+  .shadows-t {
+    box-shadow: rgb(0 0 0 / 10%) 0px -2px 15px;
+  }
+  .shadows-t-dark {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .shadows-r {
+    /* box-shadow: rgb(0 0 0 / 10%) 2px 0px 15px; */
+    border-right: 1px solid #54545445;
+  }
+  .logo {
+    position: relative;
+  }
+  .logo::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-left: 5px solid var(--color-items);
+    border-bottom: 5px solid var(--color-items);
+    bottom: 0;
+    left: 0;
+  }
+  .logo::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-right: 5px solid var(--color-items);
+    border-top: 5px solid var(--color-items);
+    top: 0;
+    right: 0;
+  }
+  .active {
+    color: var(--color-items);
+  }
+  .morebtn {
+    background-color: var(--color-items);
+  }
+  .color-items {
+    color: var(--color-items);
+  }
+  .imgRight {
+    padding: 1.5rem;
+  }
+  .imgRight::before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-right: 10px solid var(--color-items);
+    border-bottom: 10px solid var(--color-items);
+    bottom: 0;
+    right: 80px;
+  }
+  .imgRight::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-left: 10px solid var(--color-items);
+    border-top: 10px solid var(--color-items);
+    top: 0;
+    left: 80px;
+  }
+  .listInf div {
+    @apply border-b-2 border-gray-200 dark:border-gray-500;
+  }
+  .border {
+    @apply border-b-2 border-gray-200 dark:border-gray-500;
+  }
+  .border > p {
+    @apply dark:border-gray-400;
+  }
+  .border-dark {
+    border-color: var(--color-items);
+  }
+  .listInf div span {
+    @apply font-medium text-black dark:text-white;
+  }
+  .writtingMode {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+  }
+  .dotted .circle {
+    position: relative;
+  }
+  .dotted .circle::after {
+    content: '';
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    left: -2.4rem;
+    top: 0;
+    background-color: var(--color-items);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  .writing {
+    position: relative;
+    height: 100%;
+  }
+  .writing::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    /* width: 2px; */
+    border-left: 2px dotted var(--color-items);
+    z-index: 50;
+    /* background-color: var(--color-items); */
+    /* writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl; */
+  }
+  .listSkill span {
+    @apply w-max h-8 flex items-center bg-[#fcfaff] border-2 rounded-lg py-4 px-2;
+  }
+  .listSkill span i img {
+    @apply rounded-full border-2 border-gray-200;
+  }
+  .outlineCustome {
+    @apply dark:text-black;
+  }
+  .outlineCustome:focus {
+    outline-color: var(--color-items);
+    outline-style: solid;
+  }
+  .mright {
+    margin-right: 11rem !important;
+  }
+  .mright .hv {
+    animation: xoay infinite;
+    -webkit-animation: xoay 2s linear infinite;
+  }
+  @keyframes xoay {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(180deg);
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+    }
+  }
+  .mright ~ .overlay {
+    @apply fixed inset-0 z-30;
+  }
+  .mtop {
+    margin-top: 5rem;
+  }
+  .mtop ~ .overlay2 {
+    @apply fixed inset-0 z-30;
+  }
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
