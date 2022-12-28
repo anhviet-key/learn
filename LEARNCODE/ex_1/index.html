@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="card"></div>
+      <div class="contents">
+        <div class="images">
+          <img
+            class="list"
+            src="https://plus.unsplash.com/premium_photo-1661963236181-9eb0c8d766e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+            alt="" />
+          <img
+            class="list"
+            src="https://images.unsplash.com/photo-1505934333218-8fe21ff87e69?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+            alt="" />
+          <img
+            class="list"
+            src="https://images.unsplash.com/photo-1553708881-112abc53fe54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+            alt="" />
+          <img
+            class="list"
+            src="https://images.unsplash.com/photo-1602206304384-428fc5a49a5a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80"
+            alt="" />
+        </div>
+        <div class="btn">
+          <span onclick="handlepre()"><</span>
+          <span onclick="handlenext()">></span>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    const handlepre = function () {
+      const list = document.querySelectorAll('.list');
+      document.querySelector('.images').appendChild(list[0]);
+    };
+    const handlenext = function () {
+      const list = document.querySelectorAll('.list');
+      document.querySelector('.images').prepend(list[list.length - 1]);
+    };
+  </script>
+</html>

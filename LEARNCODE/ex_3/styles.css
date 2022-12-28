@@ -1,0 +1,47 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  padding: 0.25em;
+  line-height: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  color: blue;
+}
+
+.no1,
+.no2 {
+  color: #8fbc8f;
+  display: inline-block;
+  border: 2px solid red;
+}
+
+.no2 {
+  border: 5px solid rgb(0, 29, 249);
+}
+
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  border: 1px solid #ddd;
+}
+nav ul li a {
+  color: red;
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: lowercase;
+  text-overflow: hidden;
+} /*# sourceMappingURL=styles.css.map */

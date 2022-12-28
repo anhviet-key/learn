@@ -1,0 +1,5 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Goldman&family=Roboto:wght@500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

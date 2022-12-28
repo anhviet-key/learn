@@ -1,0 +1,200 @@
+html,
+body {
+  margin: 10px 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.layout {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.box {
+  /* flex: 1; */
+
+  background: red;
+  text-align: center;
+  line-height: 100px;
+  color: aliceblue;
+  flex-basis: 100px;
+}
+.text {
+  position: relative;
+  display: inline-block;
+  padding: 10px 0;
+  /* float: left; */
+}
+.text:hover .line {
+  width: 100%;
+}
+.line {
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: blueviolet;
+  transition: all 0.5s;
+}
+/* .boxes {
+} */
+.boxes--item {
+  float: left;
+  width: 120px;
+  height: 30px;
+  border: 1px solid #ccc;
+  float: left;
+  margin: 30px;
+  position: relative;
+}
+.boxes--item::after {
+  content: '';
+  position: absolute;
+  inset: 0 120px 0 0;
+  background-image: linear-gradient(to right, red, #fff);
+  transition: all 0.75s ease-in-out;
+}
+.boxes--item:hover::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(to right, red, #fff);
+}
+.add {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.add:active {
+  transform: translateY(3px);
+  border-color: violet;
+  color: violet;
+}
+.card {
+  clear: both;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.card--item {
+  transition: all 0.5s;
+  width: 200px;
+  height: 400px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 10px 8px 0px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+/* .card--item::before {
+  content: '';
+  width: 300px;
+  background-color: rgb(255, 0, 0);
+  border-radius: 5px;
+} */
+.card--item:hover {
+  transform: translateY(-5px);
+  box-shadow: 15px 15px 0px rgba(0, 0, 0, 0.1);
+}
+.dots {
+  width: 90px;
+  height: max-content;
+  background-color: black;
+  padding: 10px;
+}
+.circle {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(68, 242, 88);
+  margin-top: 20px;
+  border-radius: 50%;
+  position: relative;
+  animation: fadeOne 0.8s linear alternate-reverse infinite;
+  animation-delay: var(--value);
+}
+.circle::after {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: rgb(59, 4, 243);
+  border-radius: 50%;
+  animation: fadeTwo 0.8s linear alternate-reverse infinite;
+  animation-delay: var(--value);
+}
+/* .circle:nth-child(1) {
+  animation-delay: 0.3s;
+}
+.circle:nth-child(1)::after {
+  animation-delay: 0.3s;
+} */
+@keyframes fadeOne {
+  from {
+    margin-left: 0;
+  }
+  to {
+    margin-left: 80px;
+  }
+}
+@keyframes fadeTwo {
+  from {
+    margin-left: 80px;
+  }
+  to {
+    margin-left: -80px;
+  }
+}
+/* @font-face {
+  font-family: "santana";
+  src: url("./Santana.ttf");
+}
+:root {
+  --color-black: #000;
+  --color-link: rgba(253, 29, 29, 1);
+}
+html,
+body {
+  font-family: santana;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header--title {
+  font-size: 28px;
+  text-align: center;
+  padding: 50px 0;
+}
+.line {
+  display: block;
+  height: 6px;
+  background-image: linear-gradient(
+    to top,
+    var(--color-link),
+    var(--color-black),
+    var(--color-link)
+  );
+}
+.box {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+}
+.box__one {
+  width: 50%;
+  background-color: aqua;
+}
+.box__two {
+  width: 30%;
+  background-color: blueviolet;
+}
+
+.box__three {
+  width: auto;
+  background-color: brown;
+} */
+.concat {
+  font-size: 14px;
+  text-align: center;
+}

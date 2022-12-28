@@ -1,0 +1,55 @@
+//@import 'name'; không cần .css||.scss trừ khi tên giống nhau => Nhập dữ liệu css từ nguồn khác
+@import 'reset';
+// @import 'colors';
+@use 'colors';
+//$name:text;-->Tạo các biến global
+$Blue: blue;
+$myFont: Helvetica, sans-serif;
+$myColor: red;
+$myFontSize: 18px;
+body {
+  font-family: $myFont;
+  font-size: $myFontSize;
+  color: $Blue;
+}
+// @mixin name || @mixin name($bum,...){}--> tạo ra 1 biến global để các thành phần khác nhập thông qua @include name || @include name($bum,...) (có thể sửa hoặc thêm)
+@mixin hello($w, $h) {
+  border: $w solid $h;
+}
+.no1 {
+  color: $myGreen;
+  display: inline-block;
+  @include hello(2px, red);
+}
+.no2 {
+  // @extend .nameclass--> kế thừa các giá trị của lớp đó (có thể sửa hoặc thêm)
+  @extend .no1;
+  @include hello(5px, rgb(0, 29, 249));
+}
+//Viết lồng nhau như html
+//font: {family:cuso; size: 12px;}
+//==> Các thuộc tính có prefix giống nhau=> phù hợp cho CSS BEM BLOCK__ELEMENT--MODIFIER
+//text: {align: center;color:red;}
+nav {
+  ul {
+    list-style: none;
+    li {
+      display: inline-block;
+      border: 1px solid #ddd;
+      a {
+        color: $myColor;
+        text-decoration: none;
+        font: {
+          family: Helvetica, sans-serif;
+          size: 18px;
+          weight: bold;
+        }
+        text: {
+          align: center;
+          transform: lowercase;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+}

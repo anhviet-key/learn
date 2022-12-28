@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="contents">
+        <div id="header">
+          <div class="header__logo">BOOKS</div>
+          <div class="header__nav">
+            <span class="header__tab tabOne"
+              ><i class="fa-solid fa-book"></i>&nbspLoại sách</span
+            >
+            <span class="header__tab tabTwo"
+              ><i class="fa-regular fa-clock"></i>&nbspĐã xem</span
+            >
+            <span class="header__tab tabThree">
+              <i class="fa-solid fa-bookmark"></i>&nbspYêu thích
+            </span>
+            <div class="tab__active"></div>
+          </div>
+          <div class="header__user">
+            <span class="cart">
+              <span class="cart__number">5</span>
+              <i class="fa-solid fa-bag-shopping"></i
+            ></span>
+            <span class="imgU">
+              <img src="./assets/images/logo-user.jpg" alt="not found" />
+            </span>
+            <span class="setting">
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </span>
+          </div>
+        </div>
+        <div id="main">
+          <div id="top">
+            <div class="top__left">
+              <div class="top__title">Mới & Phổ biến</div>
+              <div class="top__des">Khám phá thế giới qua những cuốn sách</div>
+              <div class="top__input">
+                <div id="input__search">
+                  <div class="ico__search">
+                    <i class="fa-brands fa-searchengin"></i>
+                  </div>
+                  <input type="text" id="search" placeholder="Tìm kiếm sách" />
+                </div>
+              </div>
+            </div>
+            <div class="top__right">
+              <div class="bookOne">
+                <img src="./assets/images/Ngu-van-10-tap-2.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="bookshelt"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
